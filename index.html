@@ -8,6 +8,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<script id="retell-widget"
+  src="https://dashboard.retellai.com/retell-widget-v2.js"
+  data-voice-public-key="public_key_082411904b914a2bb10ab"
+  data-voice-agent-id="agent_376f6102825bb5c633bded5cb6"
+  data-title="Ocean Roofing of Florida"
+  data-color="#1a9ba8"
+  data-fab-text="Talk to Us"
+  data-bot-name="Ocean Roofing AI Receptionist"
+  data-greeting-message="Hi! You've reached Ocean Roofing of Florida. How can I help you today?"
+></script>
 <style>
 :root{
   --ink:    #0c1a28;
@@ -62,7 +72,7 @@ nav{background:var(--white);border-bottom:2px solid var(--border);position:stick
 
 /* HERO */
 .hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;}
-.hero-img{position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=85');background-size:cover;background-position:center top;}
+.hero-img{position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1635424709870-cdc6e64f0e20?w=1920&q=85');background-size:cover;background-position:center top;}
 .hero-img::after{content:'';position:absolute;inset:0;background:linear-gradient(105deg,rgba(12,26,40,.88) 0%,rgba(12,26,40,.65) 55%,rgba(12,26,40,.3) 100%);}
 .hero-inner{position:relative;z-index:2;max-width:1200px;margin:0 auto;padding:0 24px;width:100%;display:grid;grid-template-columns:1fr 360px;gap:4rem;align-items:center;}
 .hero-content{color:#fff;}
@@ -206,12 +216,8 @@ h1 span{color:var(--ocean2);}
 
 /* SERVICE AREA */
 .area-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;}
-.area-map{background:var(--ink2);border-radius:14px;overflow:hidden;position:relative;height:340px;display:flex;align-items:center;justify-content:center;}
-.area-map-inner{text-align:center;color:#fff;}
-.area-map-pin{width:64px;height:64px;background:var(--ocean);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 1rem;}
-.area-map-pin svg{width:30px;height:30px;color:#fff;}
-.area-map-city{font-family:'Raleway',sans-serif;font-weight:800;font-size:1.4rem;color:#fff;}
-.area-map-state{font-size:.85rem;color:var(--mid);margin-top:.3rem;}
+.area-map{border-radius:14px;overflow:hidden;position:relative;height:380px;box-shadow:0 4px 24px rgba(12,26,40,.15);}
+.area-map iframe{width:100%;height:100%;border:0;display:block;}
 .area-neighborhoods{display:grid;grid-template-columns:1fr 1fr;gap:.7rem;}
 .area-hood{display:flex;align-items:center;justify-content:space-between;background:var(--card);border:1px solid var(--border);border-radius:8px;padding:.7rem 1rem;}
 .area-hood-name{font-weight:600;font-size:.88rem;color:var(--ink);}
@@ -594,7 +600,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 24px 30px;}
     <div class="about-grid">
       <div class="rl">
         <div class="about-img-wrap">
-          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=85" alt="Ocean Roofing crew at work in Winter Garden FL" loading="lazy"/>
+          <img src="https://images.unsplash.com/photo-1726589004565-bedfba94d3a2?w=800&q=85" alt="Ocean Roofing crew at work in Winter Garden FL" loading="lazy"/>
           <div class="about-badge">
             <div class="about-badge-num">4.8★</div>
             <div class="about-badge-label">Google Rating</div>
@@ -734,11 +740,13 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 24px 30px;}
     <div class="area-grid">
       <div class="rl">
         <div class="area-map">
-          <div class="area-map-inner">
-            <div class="area-map-pin"><svg><use href="#i-pin"/></svg></div>
-            <div class="area-map-city">Winter Garden, FL</div>
-            <div class="area-map-state">Orange &amp; Lake County Service Area</div>
-          </div>
+          <iframe
+            src="https://maps.google.com/maps?q=Ocean+Roofing+of+Florida+LLC,+14422+Shoreside+Way,+Winter+Garden,+FL+34787&z=15&output=embed"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Ocean Roofing of Florida LLC location map"
+          ></iframe>
         </div>
       </div>
       <div class="rr">
