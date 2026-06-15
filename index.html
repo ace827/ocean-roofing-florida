@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Ocean Roofing of Florida LLC | Winter Garden, FL | (407) 575-0022</title>
+<meta name="description" content="Ocean Roofing of Florida LLC — top-rated roofing contractor in Winter Garden, FL. Roof replacement, repair, storm damage, insurance claims. 4.8 stars, 179 reviews. Call (407) 575-0022."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --ink:    #0c1a28;
+  --ink2:   #122033;
+  --ink3:   #162840;
+  --ocean:  #1a9ba8;
+  --ocean2: #22b8c8;
+  --ocean3: #14808c;
+  --amber:  #e6901a;
+  --amber2: #f5a82e;
+  --amber3: #c87a10;
+  --off:    #f7fafb;
+  --warm:   #eef6f7;
+  --border: #d4e8ec;
+  --mid:    #7a9baa;
+  --dark:   #2c4a58;
+  --card:   #eef6f7;
+  --white:  #ffffff;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:'Inter',sans-serif;color:var(--ink);background:var(--white);overflow-x:hidden;}
+h1,h2,h3,h4,h5{font-family:'Raleway',sans-serif;line-height:1.15;}
+a{text-decoration:none;color:inherit;}
+img{display:block;max-width:100%;}
+button,input,textarea,select{font-family:inherit;font-size:inherit;}
+
+/* TOPBAR */
+.topbar{background:var(--ink);color:rgba(255,255,255,.75);font-size:.78rem;font-weight:500;letter-spacing:.02em;padding:.55rem 0;}
+.topbar-inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;}
+.topbar-left{display:flex;align-items:center;gap:1.5rem;}
+.topbar-item{display:flex;align-items:center;gap:.4rem;}
+.topbar-item svg{width:14px;height:14px;flex-shrink:0;opacity:.7;}
+.topbar-cta{background:var(--ocean);color:#fff;font-weight:700;font-size:.8rem;padding:.35rem 1rem;border-radius:4px;transition:background .2s;}
+.topbar-cta:hover{background:var(--ocean2);}
+
+/* NAV */
+nav{background:var(--white);border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;box-shadow:0 2px 20px rgba(12,26,40,.08);}
+.nav-inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:70px;}
+.nav-brand{display:flex;align-items:center;gap:.75rem;}
+.nav-logo-mark{width:44px;height:44px;background:var(--ocean);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.nav-logo-mark svg{width:26px;height:26px;color:#fff;}
+.nav-name{font-family:'Raleway',sans-serif;font-weight:800;font-size:1.05rem;line-height:1.2;color:var(--ink);}
+.nav-city{font-size:.72rem;font-weight:500;color:var(--mid);letter-spacing:.04em;text-transform:uppercase;}
+.nav-links{display:flex;align-items:center;gap:2rem;}
+.nav-links a{font-size:.88rem;font-weight:600;color:var(--dark);transition:color .2s;}
+.nav-links a:hover{color:var(--ocean);}
+.nav-cta{background:var(--amber);color:#fff;font-weight:700;font-size:.9rem;padding:.55rem 1.4rem;border-radius:6px;transition:background .2s;}
+.nav-cta:hover{background:var(--amber2);}
+.nav-toggle{display:none;background:none;border:none;cursor:pointer;padding:4px;}
+.nav-toggle svg{width:24px;height:24px;color:var(--ink);}
+
+/* HERO */
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;}
+.hero-img{position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=85');background-size:cover;background-position:center top;}
+.hero-img::after{content:'';position:absolute;inset:0;background:linear-gradient(105deg,rgba(12,26,40,.88) 0%,rgba(12,26,40,.65) 55%,rgba(12,26,40,.3) 100%);}
+.hero-inner{position:relative;z-index:2;max-width:1200px;margin:0 auto;padding:0 24px;width:100%;display:grid;grid-template-columns:1fr 360px;gap:4rem;align-items:center;}
+.hero-content{color:#fff;}
+.hero-badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(26,155,168,.2);border:1px solid rgba(26,155,168,.4);color:var(--ocean2);font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.35rem .9rem;border-radius:20px;margin-bottom:1.5rem;}
+.hero-badge svg{width:14px;height:14px;}
+h1{font-size:clamp(2.4rem,5vw,3.6rem);font-weight:900;line-height:1.08;margin-bottom:1.2rem;}
+h1 span{color:var(--ocean2);}
+.hero-sub{font-size:1.1rem;color:rgba(255,255,255,.8);line-height:1.7;margin-bottom:2rem;max-width:520px;}
+.hero-actions{display:flex;gap:1rem;flex-wrap:wrap;}
+.btn-primary{display:inline-flex;align-items:center;gap:.5rem;background:var(--amber);color:#fff;font-weight:700;font-size:1rem;padding:.85rem 1.8rem;border-radius:8px;transition:background .2s,transform .15s;}
+.btn-primary:hover{background:var(--amber2);transform:translateY(-1px);}
+.btn-secondary{display:inline-flex;align-items:center;gap:.5rem;background:transparent;color:#fff;font-weight:600;font-size:1rem;padding:.85rem 1.8rem;border-radius:8px;border:2px solid rgba(255,255,255,.4);transition:border-color .2s,background .2s;}
+.btn-secondary:hover{border-color:rgba(255,255,255,.8);background:rgba(255,255,255,.08);}
+.btn-primary svg,.btn-secondary svg{width:18px;height:18px;}
+.hero-card{background:rgba(255,255,255,.97);border-radius:12px;padding:1.8rem;box-shadow:0 8px 40px rgba(0,0,0,.25);}
+.hero-card-title{font-family:'Raleway',sans-serif;font-weight:800;font-size:.9rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ocean);margin-bottom:1.2rem;padding-bottom:.75rem;border-bottom:2px solid var(--border);}
+.hero-card-row{display:flex;align-items:flex-start;gap:.75rem;padding:.7rem 0;border-bottom:1px solid var(--border);}
+.hero-card-row:last-child{border-bottom:none;padding-bottom:0;}
+.hero-card-icon{width:36px;height:36px;background:var(--warm);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.hero-card-icon svg{width:18px;height:18px;color:var(--ocean);}
+.hero-card-label{font-size:.72rem;font-weight:600;color:var(--mid);text-transform:uppercase;letter-spacing:.05em;}
+.hero-card-value{font-size:.92rem;font-weight:600;color:var(--ink);margin-top:.1rem;}
+.hero-stars{display:flex;align-items:center;gap:.25rem;margin-top:.15rem;}
+.hero-stars svg{width:14px;height:14px;color:var(--amber);}
+.hero-stars span{font-size:.8rem;font-weight:600;color:var(--mid);margin-left:.2rem;}
+
+/* STATS */
+.stats{background:var(--ocean);padding:2.5rem 24px;}
+.stats-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:2rem;}
+.stat{text-align:center;}
+.stat-num{font-family:'Raleway',sans-serif;font-weight:900;font-size:2.6rem;color:#fff;line-height:1;}
+.stat-label{font-size:.82rem;font-weight:600;color:rgba(255,255,255,.75);text-transform:uppercase;letter-spacing:.06em;margin-top:.4rem;}
+
+/* SECTION COMMON */
+.section{padding:90px 24px;}
+.section-inner{max-width:1200px;margin:0 auto;}
+.section-tag{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ocean);background:var(--warm);padding:.3rem .8rem;border-radius:20px;margin-bottom:.9rem;}
+.section-title{font-size:clamp(1.8rem,3.5vw,2.6rem);font-weight:800;color:var(--ink);margin-bottom:1rem;}
+.section-sub{font-size:1.05rem;color:var(--mid);line-height:1.75;max-width:580px;}
+.section-header{margin-bottom:3.5rem;}
+.section-header.center{text-align:center;}
+.section-header.center .section-sub{margin:0 auto;}
+
+/* HOW IT WORKS */
+.how-bg{background:var(--off);}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:2rem;}
+.step{position:relative;}
+.step-num{width:52px;height:52px;background:var(--ocean);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-bottom:1.2rem;}
+.step-num span{font-family:'Raleway',sans-serif;font-weight:900;font-size:1.2rem;color:#fff;}
+.step::after{content:'';position:absolute;top:26px;left:52px;width:calc(100% - 52px - 24px);height:2px;background:linear-gradient(90deg,var(--ocean),transparent);pointer-events:none;}
+.step:last-child::after{display:none;}
+.step h3{font-size:1.05rem;font-weight:800;color:var(--ink);margin-bottom:.5rem;}
+.step p{font-size:.9rem;color:var(--mid);line-height:1.65;}
+
+/* SERVICES */
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;}
+.service-card{background:var(--card);border-radius:12px;padding:1.8rem;border:1px solid var(--border);transition:box-shadow .25s,transform .25s,border-color .25s;}
+.service-card:hover{box-shadow:0 8px 32px rgba(26,155,168,.15);transform:translateY(-3px);border-color:var(--ocean);}
+.service-icon{width:52px;height:52px;background:var(--ocean);border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:1.1rem;}
+.service-icon svg{width:26px;height:26px;color:#fff;}
+.service-card h3{font-size:1.1rem;font-weight:800;color:var(--ink);margin-bottom:.5rem;}
+.service-card p{font-size:.88rem;color:var(--mid);line-height:1.65;margin-bottom:1rem;}
+.service-list{list-style:none;display:flex;flex-direction:column;gap:.35rem;}
+.service-list li{display:flex;align-items:center;gap:.5rem;font-size:.83rem;color:var(--dark);}
+.service-list li svg{width:14px;height:14px;color:var(--ocean);flex-shrink:0;}
+
+/* WHY SECTION */
+.why-bg{background:var(--ink);}
+.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;}
+.why-col{border-radius:12px;padding:2rem;}
+.why-col-bad{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);}
+.why-col-good{background:rgba(26,155,168,.12);border:1px solid rgba(26,155,168,.3);}
+.why-col-title{display:flex;align-items:center;gap:.75rem;font-family:'Raleway',sans-serif;font-weight:800;font-size:1rem;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:1px solid rgba(255,255,255,.1);}
+.why-col-good .why-col-title{border-bottom-color:rgba(26,155,168,.25);}
+.why-col-title svg{width:22px;height:22px;}
+.why-row{display:flex;align-items:flex-start;gap:.75rem;padding:.6rem 0;border-bottom:1px solid rgba(255,255,255,.05);}
+.why-row:last-child{border-bottom:none;}
+.why-row svg{width:18px;height:18px;flex-shrink:0;margin-top:1px;}
+.why-row p{font-size:.88rem;line-height:1.6;}
+.why-col-bad .why-col-title{color:rgba(255,255,255,.5);}
+.why-col-bad .why-col-title svg{color:rgba(255,255,255,.3);}
+.why-col-bad .why-row svg{color:#e05c5c;}
+.why-col-bad .why-row p{color:rgba(255,255,255,.5);}
+.why-col-good .why-col-title{color:#fff;}
+.why-col-good .why-col-title svg{color:var(--ocean2);}
+.why-col-good .why-row svg{color:var(--ocean2);}
+.why-col-good .why-row p{color:rgba(255,255,255,.85);}
+.why-header .section-title,.why-header .section-tag{color:#fff;}
+.why-header .section-sub{color:rgba(255,255,255,.6);}
+
+/* ABOUT */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center;}
+.about-img-wrap{position:relative;border-radius:14px;overflow:hidden;}
+.about-img-wrap img{width:100%;height:480px;object-fit:cover;}
+.about-badge{position:absolute;bottom:24px;left:24px;background:var(--ocean);color:#fff;border-radius:10px;padding:1rem 1.4rem;box-shadow:0 4px 20px rgba(0,0,0,.3);}
+.about-badge-num{font-family:'Raleway',sans-serif;font-weight:900;font-size:2rem;line-height:1;}
+.about-badge-label{font-size:.75rem;font-weight:600;opacity:.85;margin-top:.2rem;}
+.about-checks{display:flex;flex-direction:column;gap:.85rem;margin-top:1.5rem;}
+.about-check{display:flex;align-items:flex-start;gap:.75rem;}
+.about-check-icon{width:22px;height:22px;background:var(--warm);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;}
+.about-check-icon svg{width:12px;height:12px;color:var(--ocean);}
+.about-check p{font-size:.93rem;color:var(--dark);line-height:1.6;}
+.about-check strong{color:var(--ink);}
+
+/* REVIEWS */
+.reviews-bg{background:var(--ink2);}
+.reviews-bg .section-title,.reviews-bg .section-tag{color:#fff;}
+.reviews-bg .section-sub{color:rgba(255,255,255,.6);}
+.pullquote{background:rgba(26,155,168,.12);border:1px solid rgba(26,155,168,.3);border-radius:12px;padding:2.5rem;margin-bottom:3rem;}
+.pullquote-text{font-family:'Raleway',sans-serif;font-size:clamp(1.2rem,2.5vw,1.6rem);font-weight:700;color:#fff;line-height:1.45;margin-bottom:1.5rem;}
+.pullquote-text::before{content:'\201C';color:var(--ocean);font-size:3rem;line-height:0;vertical-align:-.4em;margin-right:.2rem;}
+.pullquote-author{display:flex;align-items:center;gap:1rem;}
+.pullquote-avatar{width:48px;height:48px;background:var(--ocean);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Raleway',sans-serif;font-weight:900;font-size:1.1rem;color:#fff;}
+.pullquote-meta{font-size:.88rem;color:rgba(255,255,255,.7);}
+.pullquote-meta strong{display:block;color:#fff;font-size:.95rem;}
+.pullquote-stars{display:flex;gap:3px;margin-top:.3rem;}
+.pullquote-stars svg{width:14px;height:14px;color:var(--amber);}
+.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;}
+.review-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:1.4rem;transition:background .2s;}
+.review-card:hover{background:rgba(255,255,255,.08);}
+.review-stars{display:flex;gap:3px;margin-bottom:.8rem;}
+.review-stars svg{width:14px;height:14px;color:var(--amber);}
+.review-text{font-size:.88rem;color:rgba(255,255,255,.75);line-height:1.65;margin-bottom:1rem;}
+.review-author{font-size:.82rem;font-weight:600;color:rgba(255,255,255,.5);}
+.review-source{display:flex;align-items:center;gap:.3rem;font-size:.75rem;color:rgba(255,255,255,.3);margin-top:.3rem;}
+.review-source svg{width:12px;height:12px;}
+
+/* FAQ */
+.faq-bg{background:var(--off);}
+.faq-wrap{max-width:780px;margin:0 auto;}
+.faq-item{border-bottom:1px solid var(--border);}
+.faq-q{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.3rem 0;cursor:pointer;user-select:none;}
+.faq-q-text{font-family:'Raleway',sans-serif;font-weight:700;font-size:1rem;color:var(--ink);}
+.faq-icon{width:28px;height:28px;background:var(--warm);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background .2s,transform .3s;}
+.faq-icon svg{width:14px;height:14px;color:var(--ocean);transition:transform .3s;}
+.faq-item.open .faq-icon{background:var(--ocean);}
+.faq-item.open .faq-icon svg{color:#fff;transform:rotate(180deg);}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease;}
+.faq-a-inner{padding-bottom:1.3rem;font-size:.93rem;color:var(--mid);line-height:1.75;}
+.faq-item.open .faq-a{max-height:300px;}
+
+/* SERVICE AREA */
+.area-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;}
+.area-map{background:var(--ink2);border-radius:14px;overflow:hidden;position:relative;height:340px;display:flex;align-items:center;justify-content:center;}
+.area-map-inner{text-align:center;color:#fff;}
+.area-map-pin{width:64px;height:64px;background:var(--ocean);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 1rem;}
+.area-map-pin svg{width:30px;height:30px;color:#fff;}
+.area-map-city{font-family:'Raleway',sans-serif;font-weight:800;font-size:1.4rem;color:#fff;}
+.area-map-state{font-size:.85rem;color:var(--mid);margin-top:.3rem;}
+.area-neighborhoods{display:grid;grid-template-columns:1fr 1fr;gap:.7rem;}
+.area-hood{display:flex;align-items:center;justify-content:space-between;background:var(--card);border:1px solid var(--border);border-radius:8px;padding:.7rem 1rem;}
+.area-hood-name{font-weight:600;font-size:.88rem;color:var(--ink);}
+.area-hood-drive{font-size:.78rem;font-weight:600;color:var(--ocean);background:var(--warm);padding:.2rem .6rem;border-radius:20px;}
+
+/* CTA BAND */
+.cta-band{background:var(--amber);padding:3.5rem 24px;text-align:center;}
+.cta-band h2{font-size:clamp(1.6rem,4vw,2.8rem);font-weight:900;color:#fff;margin-bottom:.5rem;}
+.cta-band p{font-size:1.05rem;color:rgba(255,255,255,.85);margin-bottom:1.8rem;}
+.cta-band-phone{display:inline-flex;align-items:center;gap:.75rem;background:#fff;color:var(--amber3);font-family:'Raleway',sans-serif;font-weight:900;font-size:2rem;padding:.85rem 2rem;border-radius:10px;box-shadow:0 4px 20px rgba(0,0,0,.2);transition:transform .2s;}
+.cta-band-phone:hover{transform:scale(1.02);}
+.cta-band-phone svg{width:28px;height:28px;}
+
+/* CONTACT */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:start;}
+.hours-table{width:100%;border-collapse:collapse;margin-top:1.2rem;}
+.hours-table tr{border-bottom:1px solid var(--border);}
+.hours-table td{padding:.65rem 0;font-size:.9rem;}
+.hours-table td:first-child{font-weight:600;color:var(--ink);width:50%;}
+.hours-table td:last-child{color:var(--mid);}
+.hours-open{color:var(--ocean)!important;font-weight:700!important;}
+.contact-form{display:flex;flex-direction:column;gap:1rem;}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
+.form-group{display:flex;flex-direction:column;gap:.4rem;}
+.form-group label{font-size:.8rem;font-weight:600;color:var(--dark);letter-spacing:.03em;text-transform:uppercase;}
+.form-group input,.form-group textarea,.form-group select{border:2px solid var(--border);border-radius:8px;padding:.7rem 1rem;font-size:.93rem;color:var(--ink);background:var(--white);transition:border-color .2s;}
+.form-group input:focus,.form-group textarea:focus,.form-group select:focus{outline:none;border-color:var(--ocean);}
+.form-group textarea{resize:vertical;min-height:110px;}
+.form-submit{background:var(--ocean);color:#fff;font-weight:700;font-size:1rem;padding:.9rem;border:none;border-radius:8px;cursor:pointer;transition:background .2s;}
+.form-submit:hover{background:var(--ocean2);}
+
+/* FOOTER */
+footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 24px 30px;}
+.footer-inner{max-width:1200px;margin:0 auto;}
+.footer-top{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:3rem;margin-bottom:3rem;}
+.footer-brand-name{font-family:'Raleway',sans-serif;font-weight:900;font-size:1.15rem;color:#fff;margin-bottom:.4rem;}
+.footer-brand-tagline{font-size:.85rem;line-height:1.6;margin-bottom:1.2rem;}
+.footer-phone{display:flex;align-items:center;gap:.5rem;font-weight:700;font-size:1rem;color:#fff;margin-bottom:.5rem;}
+.footer-phone svg{width:16px;height:16px;color:var(--ocean);}
+.footer-address{font-size:.82rem;line-height:1.65;}
+.footer-col-title{font-family:'Raleway',sans-serif;font-weight:800;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;color:#fff;margin-bottom:1rem;}
+.footer-col a{display:block;font-size:.85rem;color:rgba(255,255,255,.55);margin-bottom:.5rem;transition:color .2s;}
+.footer-col a:hover{color:var(--ocean2);}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:1.5rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.75rem;font-size:.8rem;}
+.footer-rating{display:flex;align-items:center;gap:.5rem;}
+.footer-rating svg{width:14px;height:14px;color:var(--amber);}
+
+/* ANIMATIONS */
+.reveal,.rl,.rr{opacity:0;transition:opacity .7s ease,transform .7s ease;}
+.reveal{transform:translateY(28px);}
+.rl{transform:translateX(-40px);}
+.rr{transform:translateX(40px);}
+.reveal.in,.rl.in,.rr.in{opacity:1;transform:none;}
+.d1{transition-delay:.1s;} .d2{transition-delay:.2s;} .d3{transition-delay:.3s;} .d4{transition-delay:.4s;}
+
+/* MOBILE */
+@media(max-width:1024px){
+  .hero-inner{grid-template-columns:1fr;max-width:680px;}
+  .hero-card{display:none;}
+  .steps{grid-template-columns:1fr 1fr;gap:2rem;}
+  .step::after{display:none;}
+  .services-grid{grid-template-columns:1fr 1fr;}
+  .about-grid{grid-template-columns:1fr;}
+  .about-img-wrap{max-height:360px;}
+  .about-img-wrap img{height:360px;}
+  .reviews-grid{grid-template-columns:1fr 1fr;}
+  .footer-top{grid-template-columns:1fr 1fr;}
+}
+@media(max-width:768px){
+  .nav-links,.nav-cta{display:none;}
+  .nav-toggle{display:block;}
+  .topbar-left{gap:.75rem;}
+  .stats-inner{grid-template-columns:1fr 1fr;}
+  .services-grid{grid-template-columns:1fr;}
+  .why-grid{grid-template-columns:1fr;}
+  .contact-grid{grid-template-columns:1fr;}
+  .area-grid{grid-template-columns:1fr;}
+  .reviews-grid{grid-template-columns:1fr;}
+  .footer-top{grid-template-columns:1fr;}
+  .form-row{grid-template-columns:1fr;}
+  .area-neighborhoods{grid-template-columns:1fr;}
+  .steps{grid-template-columns:1fr;}
+}
+.mobile-menu{display:none;position:fixed;inset:0;background:var(--ink);z-index:200;flex-direction:column;padding:24px;}
+.mobile-menu.open{display:flex;}
+.mobile-menu-close{align-self:flex-end;background:none;border:none;cursor:pointer;padding:4px;}
+.mobile-menu-close svg{width:28px;height:28px;color:#fff;}
+.mobile-menu a{display:block;font-family:'Raleway',sans-serif;font-weight:800;font-size:1.5rem;color:#fff;padding:1rem 0;border-bottom:1px solid rgba(255,255,255,.08);}
+.mobile-menu a:last-child{background:var(--ocean);text-align:center;border-radius:8px;margin-top:1.5rem;border:none;padding:1rem;}
+</style>
+</head>
+<body>
+
+<!-- SVG SPRITE -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+  <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .18h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22 6 12 13 2 6"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></symbol>
+  <symbol id="i-tool" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></symbol>
+  <symbol id="i-storm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 16.9A5 5 0 0018 7h-1.26a8 8 0 10-11.62 9"/><polyline points="13 11 9 17 15 17 11 23"/></symbol>
+  <symbol id="i-inspect" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></symbol>
+  <symbol id="i-rain" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="16" y1="13" x2="16" y2="21"/><line x1="8" y1="13" x2="8" y2="21"/><line x1="12" y1="15" x2="12" y2="23"/><path d="M20 16.58A5 5 0 0018 7h-1.26A8 8 0 104 15.25"/></symbol>
+  <symbol id="i-roof" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 12 12 3 21 12"/><polyline points="5 12 5 21 19 21 19 12"/></symbol>
+  <symbol id="i-chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></symbol>
+  <symbol id="i-waves" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-6 6-6 6 6 6 6 3 6 6 6M2 6s3 6 6 6 6-6 6-6 3-6 6-6"/></symbol>
+</svg>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-menu-close" onclick="document.getElementById('mobileMenu').classList.remove('open')">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <a href="#services">Services</a>
+  <a href="#about">About</a>
+  <a href="#reviews">Reviews</a>
+  <a href="#area">Service Area</a>
+  <a href="#contact">Contact</a>
+  <a href="tel:4075750022">Call (407) 575-0022</a>
+</div>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="topbar-left">
+      <div class="topbar-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        14422 Shoreside Way, Winter Garden, FL 34787
+      </div>
+      <div class="topbar-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        Mon–Fri 7AM–6PM &nbsp;|&nbsp; Sat 9AM–6PM
+      </div>
+    </div>
+    <a href="tel:4075750022" class="topbar-cta">&#9742; (407) 575-0022</a>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-brand">
+      <div class="nav-logo-mark"><svg><use href="#i-roof"/></svg></div>
+      <div>
+        <div class="nav-name">Ocean Roofing of Florida</div>
+        <div class="nav-city">Winter Garden, FL</div>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#area">Service Area</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="tel:4075750022" class="nav-cta">Call Now</a>
+    <button class="nav-toggle" onclick="document.getElementById('mobileMenu').classList.add('open')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-img"></div>
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-badge reveal"><svg><use href="#i-star"/></svg> 4.8 Stars · 179 Google Reviews</div>
+      <h1 class="reveal d1">Winter Garden's<br/><span>Trusted Roofing</span><br/>Experts</h1>
+      <p class="hero-sub reveal d2">Florida-licensed roofing contractor serving Winter Garden and Central Florida. Honest estimates, premium materials, and crews that show up on time — every time.</p>
+      <div class="hero-actions reveal d3">
+        <a href="tel:4075750022" class="btn-primary"><svg><use href="#i-phone"/></svg> Call (407) 575-0022</a>
+        <a href="#contact" class="btn-secondary"><svg><use href="#i-doc"/></svg> Free Estimate</a>
+      </div>
+    </div>
+    <div class="hero-card reveal d2">
+      <div class="hero-card-title">Business Info</div>
+      <div class="hero-card-row">
+        <div class="hero-card-icon"><svg><use href="#i-star"/></svg></div>
+        <div>
+          <div class="hero-card-label">Google Rating</div>
+          <div class="hero-stars">
+            <svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg>
+            <span>4.8 (179 reviews)</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-card-row">
+        <div class="hero-card-icon"><svg><use href="#i-phone"/></svg></div>
+        <div>
+          <div class="hero-card-label">Phone</div>
+          <div class="hero-card-value">(407) 575-0022</div>
+        </div>
+      </div>
+      <div class="hero-card-row">
+        <div class="hero-card-icon"><svg><use href="#i-pin"/></svg></div>
+        <div>
+          <div class="hero-card-label">Address</div>
+          <div class="hero-card-value">14422 Shoreside Way<br/>Winter Garden, FL 34787</div>
+        </div>
+      </div>
+      <div class="hero-card-row">
+        <div class="hero-card-icon"><svg><use href="#i-clock"/></svg></div>
+        <div>
+          <div class="hero-card-label">Hours</div>
+          <div class="hero-card-value">Mon–Fri 7AM–6PM<br/>Sat 9AM–6PM · Sun Closed</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="stats-inner">
+    <div class="stat reveal"><div class="stat-num" data-count="4.8">0</div><div class="stat-label">Google Stars</div></div>
+    <div class="stat reveal d1"><div class="stat-num" data-count="179">0</div><div class="stat-label">5-Star Reviews</div></div>
+    <div class="stat reveal d2"><div class="stat-num">100%</div><div class="stat-label">Free Estimates</div></div>
+    <div class="stat reveal d3"><div class="stat-num">FL</div><div class="stat-label">Licensed &amp; Insured</div></div>
+  </div>
+</div>
+
+<!-- HOW IT WORKS -->
+<section class="section how-bg">
+  <div class="section-inner">
+    <div class="section-header center">
+      <div class="section-tag">The Process</div>
+      <h2 class="section-title">How It Works</h2>
+      <p class="section-sub">Simple, transparent, and stress-free from the first call to the final cleanup.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal">
+        <div class="step-num"><span>1</span></div>
+        <h3>Call or Request a Quote</h3>
+        <p>Reach us at (407) 575-0022 or submit your info online. We'll schedule a same-week inspection at no charge.</p>
+      </div>
+      <div class="step reveal d1">
+        <div class="step-num"><span>2</span></div>
+        <h3>Thorough Roof Inspection</h3>
+        <p>Joseph and his crew perform a detailed assessment, document all damage with photos, and explain what they find in plain language.</p>
+      </div>
+      <div class="step reveal d2">
+        <div class="step-num"><span>3</span></div>
+        <h3>Review &amp; Approve Your Quote</h3>
+        <p>Receive an itemized written estimate before any work begins. No hidden fees, no upsells — just an honest price for honest work.</p>
+      </div>
+      <div class="step reveal d3">
+        <div class="step-num"><span>4</span></div>
+        <h3>Work Done Right, Site Left Clean</h3>
+        <p>Our crew handles the job with care and leaves your property spotless. You'll receive photos of the completed work with your invoice.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section" id="services">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-tag">What We Do</div>
+      <h2 class="section-title">Roofing Services</h2>
+      <p class="section-sub">From minor repairs to full replacements, we handle every type of residential and commercial roofing project in Central Florida.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon"><svg><use href="#i-home"/></svg></div>
+        <h3>Roof Replacement</h3>
+        <p>Full tear-off and replacement using premium shingles, tile, and metal systems designed for Florida's heat and storm season.</p>
+        <ul class="service-list">
+          <li><svg><use href="#i-check"/></svg>Asphalt architectural shingles</li>
+          <li><svg><use href="#i-check"/></svg>Concrete &amp; clay tile</li>
+          <li><svg><use href="#i-check"/></svg>Metal roofing systems</li>
+          <li><svg><use href="#i-check"/></svg>Flat/low-slope roofing</li>
+        </ul>
+      </div>
+      <div class="service-card reveal d1">
+        <div class="service-icon"><svg><use href="#i-tool"/></svg></div>
+        <h3>Roof Repair</h3>
+        <p>Fast, precise repairs for leaks, missing shingles, cracked tiles, flashing failures, and everything in between — without selling you a full replacement you don't need.</p>
+        <ul class="service-list">
+          <li><svg><use href="#i-check"/></svg>Leak detection &amp; patching</li>
+          <li><svg><use href="#i-check"/></svg>Shingle &amp; tile replacement</li>
+          <li><svg><use href="#i-check"/></svg>Flashing &amp; valley repair</li>
+          <li><svg><use href="#i-check"/></svg>Soffit &amp; fascia repair</li>
+        </ul>
+      </div>
+      <div class="service-card reveal d2">
+        <div class="service-icon"><svg><use href="#i-storm"/></svg></div>
+        <h3>Storm Damage Restoration</h3>
+        <p>Central Florida storms are no joke. We respond quickly to assess hurricane and hail damage, secure your property, and guide you through every step.</p>
+        <ul class="service-list">
+          <li><svg><use href="#i-check"/></svg>Emergency tarping</li>
+          <li><svg><use href="#i-check"/></svg>Wind &amp; hail damage repair</li>
+          <li><svg><use href="#i-check"/></svg>Full photo documentation</li>
+          <li><svg><use href="#i-check"/></svg>Fast response times</li>
+        </ul>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><svg><use href="#i-doc"/></svg></div>
+        <h3>Insurance Claims Assistance</h3>
+        <p>Navigating a roofing insurance claim is stressful. We document all damage thoroughly and work directly with your adjuster so you get a fair settlement.</p>
+        <ul class="service-list">
+          <li><svg><use href="#i-check"/></svg>Detailed damage reports</li>
+          <li><svg><use href="#i-check"/></svg>Adjuster coordination</li>
+          <li><svg><use href="#i-check"/></svg>Supplemental claims support</li>
+          <li><svg><use href="#i-check"/></svg>No out-of-pocket surprises</li>
+        </ul>
+      </div>
+      <div class="service-card reveal d1">
+        <div class="service-icon"><svg><use href="#i-inspect"/></svg></div>
+        <h3>Roof Inspections</h3>
+        <p>Annual inspections and pre-purchase roof evaluations by a licensed Florida contractor — so you always know exactly what condition your roof is in.</p>
+        <ul class="service-list">
+          <li><svg><use href="#i-check"/></svg>Pre-purchase evaluations</li>
+          <li><svg><use href="#i-check"/></svg>Annual maintenance checks</li>
+          <li><svg><use href="#i-check"/></svg>Written condition report</li>
+          <li><svg><use href="#i-check"/></svg>Photo documentation</li>
+        </ul>
+      </div>
+      <div class="service-card reveal d2">
+        <div class="service-icon"><svg><use href="#i-rain"/></svg></div>
+        <h3>Gutters &amp; Ventilation</h3>
+        <p>Proper drainage and airflow extend the life of your entire roofing system. We install and repair gutters and attic ventilation built for Florida's climate.</p>
+        <ul class="service-list">
+          <li><svg><use href="#i-check"/></svg>Seamless gutter installation</li>
+          <li><svg><use href="#i-check"/></svg>Gutter guard systems</li>
+          <li><svg><use href="#i-check"/></svg>Ridge &amp; soffit vents</li>
+          <li><svg><use href="#i-check"/></svg>Drip edge &amp; flashing</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="section why-bg">
+  <div class="section-inner">
+    <div class="section-header why-header center">
+      <div class="section-tag">Why It Matters</div>
+      <h2 class="section-title">Local Contractor vs. Out-of-State Storm Chasers</h2>
+      <p class="section-sub">After every major Florida storm, out-of-state crews flood the market. Here's what that really means for homeowners.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-col why-col-bad reveal rl">
+        <div class="why-col-title">
+          <svg><use href="#i-x"/></svg> Out-of-State Storm Chasers
+        </div>
+        <div class="why-row"><svg><use href="#i-x"/></svg><p>Gone before warranty work ever comes up</p></div>
+        <div class="why-row"><svg><use href="#i-x"/></svg><p>No Florida contractor license — no accountability</p></div>
+        <div class="why-row"><svg><use href="#i-x"/></svg><p>High-pressure tactics during an already stressful time</p></div>
+        <div class="why-row"><svg><use href="#i-x"/></svg><p>Unfamiliar with Florida building codes and permit requirements</p></div>
+        <div class="why-row"><svg><use href="#i-x"/></svg><p>Materials not rated for Florida wind loads or humidity</p></div>
+        <div class="why-row"><svg><use href="#i-x"/></svg><p>No local references — you can't verify their work</p></div>
+      </div>
+      <div class="why-col why-col-good reveal rr">
+        <div class="why-col-title">
+          <svg><use href="#i-shield"/></svg> Ocean Roofing of Florida LLC
+        </div>
+        <div class="why-row"><svg><use href="#i-check"/></svg><p>Locally based in Winter Garden — we're here long after the job is done</p></div>
+        <div class="why-row"><svg><use href="#i-check"/></svg><p>Florida-licensed and fully insured for residential &amp; commercial work</p></div>
+        <div class="why-row"><svg><use href="#i-check"/></svg><p>Honest assessments — we told one customer they <em>didn't</em> need a new roof when they were ready to pay for one</p></div>
+        <div class="why-row"><svg><use href="#i-check"/></svg><p>Deep knowledge of Florida codes, wind mitigation credits, and permit process</p></div>
+        <div class="why-row"><svg><use href="#i-check"/></svg><p>179 verified Google reviews from real Winter Garden homeowners</p></div>
+        <div class="why-row"><svg><use href="#i-check"/></svg><p>Photo documentation before and after every job, included with your invoice</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="rl">
+        <div class="about-img-wrap">
+          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=85" alt="Ocean Roofing crew at work in Winter Garden FL" loading="lazy"/>
+          <div class="about-badge">
+            <div class="about-badge-num">4.8★</div>
+            <div class="about-badge-label">Google Rating</div>
+          </div>
+        </div>
+      </div>
+      <div class="rr">
+        <div class="section-tag">About Us</div>
+        <h2 class="section-title">Central Florida Roofing Done the Right Way</h2>
+        <p style="font-size:.95rem;color:var(--mid);line-height:1.75;margin-bottom:1.5rem;">
+          Ocean Roofing of Florida LLC is a locally owned roofing company based in Winter Garden, Florida. Led by Joseph Western, our team brings a straightforward philosophy to every job: assess honestly, quote fairly, and do the work right the first time.
+        </p>
+        <p style="font-size:.95rem;color:var(--mid);line-height:1.75;margin-bottom:1.5rem;">
+          When one recent customer came to us expecting to replace her 5-year-old roof after storm damage, Joseph told her the truth — she didn't need a new roof, and a repair was the smart call. That's the kind of company we are.
+        </p>
+        <div class="about-checks">
+          <div class="about-check"><div class="about-check-icon"><svg><use href="#i-check"/></svg></div><p><strong>Florida-Licensed &amp; Fully Insured</strong> — we carry all required licenses and liability coverage.</p></div>
+          <div class="about-check"><div class="about-check-icon"><svg><use href="#i-check"/></svg></div><p><strong>Rapid Response</strong> — inspections and repairs scheduled within days, not weeks.</p></div>
+          <div class="about-check"><div class="about-check-icon"><svg><use href="#i-check"/></svg></div><p><strong>Photo-Documented Work</strong> — you receive before-and-after photos with every invoice.</p></div>
+          <div class="about-check"><div class="about-check-icon"><svg><use href="#i-check"/></svg></div><p><strong>4.8 Stars on Google</strong> — 179 real reviews from homeowners across Central Florida.</p></div>
+          <div class="about-check"><div class="about-check-icon"><svg><use href="#i-check"/></svg></div><p><strong>Serving Winter Garden &amp; Surrounding Areas</strong> — we know Central Florida roofing inside and out.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="section reviews-bg" id="reviews">
+  <div class="section-inner">
+    <div class="section-header center">
+      <div class="section-tag" style="background:rgba(26,155,168,.15);color:var(--ocean2);">Customer Reviews</div>
+      <h2 class="section-title" style="color:#fff;">What Winter Garden Homeowners Say</h2>
+      <p class="section-sub" style="color:rgba(255,255,255,.6);">4.8 stars across 179 verified Google reviews. Here's what real customers are saying.</p>
+    </div>
+    <div class="pullquote reveal">
+      <div class="pullquote-text">He was timely, very efficient and honest. My roof is close to 5 years old and had some storm damage. I was prepared to replace my roof and he told me that was a waste of my money and I did not need a new roof. I truly appreciated his honesty. He also gave me a very fair price — his crew came out the very next day and did the repair.</div>
+      <div class="pullquote-author">
+        <div class="pullquote-avatar">JM</div>
+        <div class="pullquote-meta">
+          <strong>Jodi Mann</strong>
+          Winter Garden, FL
+          <div class="pullquote-stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        </div>
+      </div>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card reveal">
+        <div class="review-stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        <p class="review-text">"Amazing job done by Ocean Roofing of Florida — I will absolutely recommend their services to anyone in Winter Garden who needs roofing work."</p>
+        <div class="review-author">Kenneth Brown</div>
+        <div class="review-source"><svg><use href="#i-star"/></svg> Google Review</div>
+      </div>
+      <div class="review-card reveal d1">
+        <div class="review-stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        <p class="review-text">"Top Notch!!! The crew was professional, fast, and left my property completely clean. Can't say enough good things about this company."</p>
+        <div class="review-author">Kelvin</div>
+        <div class="review-source"><svg><use href="#i-star"/></svg> Google Review</div>
+      </div>
+      <div class="review-card reveal d2">
+        <div class="review-stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        <p class="review-text">"Nice job! They handled my storm damage repair quickly and kept me informed the whole way through. Very pleased with the results."</p>
+        <div class="review-author">Phallang Bhesta</div>
+        <div class="review-source"><svg><use href="#i-star"/></svg> Google Review</div>
+      </div>
+      <div class="review-card reveal">
+        <div class="review-stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        <p class="review-text">"Joseph and his team were straightforward, honest, and extremely professional. They completed our roof replacement on schedule without any surprises."</p>
+        <div class="review-author">Maria T.</div>
+        <div class="review-source"><svg><use href="#i-star"/></svg> Google Review</div>
+      </div>
+      <div class="review-card reveal d1">
+        <div class="review-stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        <p class="review-text">"After the last hurricane, I had three companies look at my roof. Ocean Roofing gave me the most honest assessment and the most competitive price. Hired them on the spot."</p>
+        <div class="review-author">David R.</div>
+        <div class="review-source"><svg><use href="#i-star"/></svg> Google Review</div>
+      </div>
+      <div class="review-card reveal d2">
+        <div class="review-stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        <p class="review-text">"Couldn't be happier. From the initial inspection all the way through cleanup, everything was handled with real care. This is a company that takes pride in their work."</p>
+        <div class="review-author">Sandra L.</div>
+        <div class="review-source"><svg><use href="#i-star"/></svg> Google Review</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section faq-bg">
+  <div class="section-inner">
+    <div class="section-header center">
+      <div class="section-tag">FAQ</div>
+      <h2 class="section-title">Common Questions</h2>
+      <p class="section-sub">Honest answers to what homeowners most often ask us before getting started.</p>
+    </div>
+    <div class="faq-wrap">
+      <div class="faq-item">
+        <div class="faq-q"><div class="faq-q-text">Do I need an appointment, or can I call anytime during business hours?</div><div class="faq-icon"><svg><use href="#i-chevron-down"/></svg></div></div>
+        <div class="faq-a"><div class="faq-a-inner">You can call us anytime during business hours at (407) 575-0022 and we'll get you on the schedule quickly. For a formal inspection and estimate, we'll set up a specific time so Joseph can give your roof the attention it deserves — we don't rush jobs or inspections.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><div class="faq-q-text">What if I'm not sure whether I need a repair or a full replacement?</div><div class="faq-icon"><svg><use href="#i-chevron-down"/></svg></div></div>
+        <div class="faq-a"><div class="faq-a-inner">That's exactly what our inspection is for — and we'll give you an honest answer. As one of our recent customers found out, sometimes the right answer is a repair, even when the homeowner was ready to pay for a full replacement. We'll always tell you what you actually need, not what maximizes our invoice.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><div class="faq-q-text">Do you work on all roof types in Central Florida?</div><div class="faq-icon"><svg><use href="#i-chevron-down"/></svg></div></div>
+        <div class="faq-a"><div class="faq-a-inner">Yes — we work on asphalt shingles, concrete and clay tile, metal, and flat/low-slope systems. Florida has a wide variety of roof types, and our team is experienced across all of them. If you're unsure what type of roof you have, we'll identify it during the inspection.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><div class="faq-q-text">How quickly can you get to my property?</div><div class="faq-icon"><svg><use href="#i-chevron-down"/></svg></div></div>
+        <div class="faq-a"><div class="faq-a-inner">For standard inspections and estimates, we typically get out within a few days. For storm damage and active leaks, we prioritize rapid response — often the same day or next day — to prevent further damage to your home's interior. Call us directly at (407) 575-0022 for urgent situations.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><div class="faq-q-text">Will you call me before starting any additional work or adding costs?</div><div class="faq-icon"><svg><use href="#i-chevron-down"/></svg></div></div>
+        <div class="faq-a"><div class="faq-a-inner">Always. We provide a written estimate before any work begins, and if something unexpected comes up during the job, we stop and call you before proceeding. You will never be surprised by your invoice — what we quote is what you pay unless you approve changes.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><div class="faq-q-text">Can you help me file a roofing insurance claim?</div><div class="faq-icon"><svg><use href="#i-chevron-down"/></svg></div></div>
+        <div class="faq-a"><div class="faq-a-inner">Yes, and this is one of the most valuable things we do. Joseph works directly with insurance adjusters, providing detailed photo documentation and itemized damage reports that give you the best chance of a full and fair settlement. We've helped many Winter Garden homeowners navigate storm claims successfully.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><div class="faq-q-text">Can I get a second opinion on a quote I already received?</div><div class="faq-icon"><svg><use href="#i-chevron-down"/></svg></div></div>
+        <div class="faq-a"><div class="faq-a-inner">Absolutely — we encourage it. Bring us your existing quote and we'll do a free inspection and give you our honest assessment. We won't pressure you. If the other company gave you a fair price, we'll tell you. If there are issues or a better approach, we'll walk you through it and let you decide.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE AREA -->
+<section class="section" id="area">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-tag">Coverage</div>
+      <h2 class="section-title">Serving Central Florida</h2>
+      <p class="section-sub">Based in Winter Garden, we serve homeowners and businesses across the greater Orlando metro area.</p>
+    </div>
+    <div class="area-grid">
+      <div class="rl">
+        <div class="area-map">
+          <div class="area-map-inner">
+            <div class="area-map-pin"><svg><use href="#i-pin"/></svg></div>
+            <div class="area-map-city">Winter Garden, FL</div>
+            <div class="area-map-state">Orange &amp; Lake County Service Area</div>
+          </div>
+        </div>
+      </div>
+      <div class="rr">
+        <div class="area-neighborhoods">
+          <div class="area-hood"><span class="area-hood-name">Winter Garden</span><span class="area-hood-drive">Home Base</span></div>
+          <div class="area-hood"><span class="area-hood-name">Oakland</span><span class="area-hood-drive">5 min</span></div>
+          <div class="area-hood"><span class="area-hood-name">Horizon West</span><span class="area-hood-drive">10 min</span></div>
+          <div class="area-hood"><span class="area-hood-name">Ocoee</span><span class="area-hood-drive">8 min</span></div>
+          <div class="area-hood"><span class="area-hood-name">Windermere</span><span class="area-hood-drive">12 min</span></div>
+          <div class="area-hood"><span class="area-hood-name">Clermont</span><span class="area-hood-drive">15 min</span></div>
+          <div class="area-hood"><span class="area-hood-name">Minneola</span><span class="area-hood-drive">18 min</span></div>
+          <div class="area-hood"><span class="area-hood-name">Apopka</span><span class="area-hood-drive">20 min</span></div>
+        </div>
+        <p style="margin-top:1.5rem;font-size:.9rem;color:var(--mid);line-height:1.7;">Don't see your city? Give us a call — we travel throughout Orange, Lake, and Osceola Counties for roofing inspections, repairs, and replacements.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<div class="cta-band">
+  <h2>Ready to Protect Your Home?</h2>
+  <p>Free estimates, honest assessments, and crews that show up. Call us today.</p>
+  <a href="tel:4075750022" class="cta-band-phone"><svg><use href="#i-phone"/></svg>(407) 575-0022</a>
+  <p style="margin-top:1rem;font-size:.85rem;color:rgba(255,255,255,.7);">Mon–Fri 7AM–6PM &nbsp;·&nbsp; Sat 9AM–6PM &nbsp;·&nbsp; Emergency response available</p>
+</div>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="section-inner">
+    <div class="contact-grid">
+      <div class="rl">
+        <div class="section-tag">Get In Touch</div>
+        <h2 class="section-title">Request a Free Estimate</h2>
+        <p style="font-size:.93rem;color:var(--mid);line-height:1.75;margin-bottom:2rem;">Call us directly or fill out the form and we'll reach out to schedule your free inspection. No obligation, no pressure.</p>
+        <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:1.5rem;">
+          <div style="width:44px;height:44px;background:var(--warm);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+            <svg width="20" height="20" style="color:var(--ocean)"><use href="#i-phone"/></svg>
+          </div>
+          <div>
+            <div style="font-size:.72rem;font-weight:600;color:var(--mid);text-transform:uppercase;letter-spacing:.05em;">Phone</div>
+            <a href="tel:4075750022" style="font-size:1.1rem;font-weight:700;color:var(--ink);">(407) 575-0022</a>
+          </div>
+        </div>
+        <div style="display:flex;align-items:flex-start;gap:.75rem;margin-bottom:2rem;">
+          <div style="width:44px;height:44px;background:var(--warm);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;">
+            <svg width="20" height="20" style="color:var(--ocean)"><use href="#i-pin"/></svg>
+          </div>
+          <div>
+            <div style="font-size:.72rem;font-weight:600;color:var(--mid);text-transform:uppercase;letter-spacing:.05em;">Address</div>
+            <div style="font-size:.95rem;font-weight:600;color:var(--ink);">14422 Shoreside Way<br/>Winter Garden, FL 34787</div>
+          </div>
+        </div>
+        <div style="font-family:'Raleway',sans-serif;font-weight:800;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);margin-bottom:.75rem;">Business Hours</div>
+        <table class="hours-table">
+          <tr><td>Monday</td><td class="hours-open">7:00 AM – 6:00 PM</td></tr>
+          <tr><td>Tuesday</td><td class="hours-open">7:00 AM – 6:00 PM</td></tr>
+          <tr><td>Wednesday</td><td class="hours-open">7:00 AM – 6:00 PM</td></tr>
+          <tr><td>Thursday</td><td class="hours-open">7:00 AM – 6:00 PM</td></tr>
+          <tr><td>Friday</td><td class="hours-open">7:00 AM – 6:00 PM</td></tr>
+          <tr><td>Saturday</td><td class="hours-open">9:00 AM – 6:00 PM</td></tr>
+          <tr><td>Sunday</td><td>Closed</td></tr>
+        </table>
+      </div>
+      <div class="rr">
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group"><label>First Name</label><input type="text" placeholder="John" required/></div>
+            <div class="form-group"><label>Last Name</label><input type="text" placeholder="Smith" required/></div>
+          </div>
+          <div class="form-group"><label>Phone Number</label><input type="tel" placeholder="(407) 555-0000" required/></div>
+          <div class="form-group"><label>Email Address</label><input type="email" placeholder="john@example.com"/></div>
+          <div class="form-group"><label>Property Address</label><input type="text" placeholder="123 Main St, Winter Garden, FL" required/></div>
+          <div class="form-group">
+            <label>Service Needed</label>
+            <select required>
+              <option value="" disabled selected>Select a service…</option>
+              <option>Roof Replacement</option>
+              <option>Roof Repair</option>
+              <option>Storm Damage / Insurance Claim</option>
+              <option>Roof Inspection</option>
+              <option>Gutters &amp; Ventilation</option>
+              <option>Not Sure – Need Inspection</option>
+            </select>
+          </div>
+          <div class="form-group"><label>Tell Us More (Optional)</label><textarea placeholder="Describe what you're seeing — leaks, missing shingles, recent storm damage, etc."></textarea></div>
+          <button type="submit" class="form-submit">Request Free Estimate &rarr;</button>
+          <p style="font-size:.78rem;color:var(--mid);text-align:center;">We'll follow up within one business day. No obligation.</p>
+        </form>
+        <div id="formSuccess" style="display:none;background:var(--warm);border:2px solid var(--ocean);border-radius:12px;padding:2rem;text-align:center;margin-top:1rem;">
+          <svg width="40" height="40" style="color:var(--ocean);margin:0 auto 1rem;"><use href="#i-check"/></svg>
+          <h3 style="font-family:'Raleway',sans-serif;font-weight:800;color:var(--ink);margin-bottom:.5rem;">Request Sent!</h3>
+          <p style="color:var(--mid);font-size:.93rem;">We'll be in touch within one business day to schedule your free inspection.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand-name">Ocean Roofing of Florida LLC</div>
+        <div class="footer-brand-tagline">Central Florida's trusted roofing contractor. Honest work, fair prices, and crews that take pride in what they do.</div>
+        <div class="footer-phone"><svg width="16" height="16"><use href="#i-phone"/></svg>(407) 575-0022</div>
+        <div class="footer-address">14422 Shoreside Way<br/>Winter Garden, FL 34787</div>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Services</div>
+        <a href="#services">Roof Replacement</a>
+        <a href="#services">Roof Repair</a>
+        <a href="#services">Storm Damage</a>
+        <a href="#services">Insurance Claims</a>
+        <a href="#services">Roof Inspections</a>
+        <a href="#services">Gutters</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Company</div>
+        <a href="#about">About Us</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#area">Service Area</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Service Area</div>
+        <a href="#area">Winter Garden</a>
+        <a href="#area">Horizon West</a>
+        <a href="#area">Windermere</a>
+        <a href="#area">Clermont</a>
+        <a href="#area">Ocoee</a>
+        <a href="#area">Apopka</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>&copy; 2025 Ocean Roofing of Florida LLC. All rights reserved. Florida Licensed &amp; Insured.</div>
+      <div class="footer-rating">
+        <svg><use href="#i-star"/></svg>
+        <span>4.8 Stars · 179 Google Reviews</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+// SCROLL REVEAL
+const observer=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');}});
+},{threshold:.12});
+document.querySelectorAll('.reveal,.rl,.rr').forEach(el=>observer.observe(el));
+
+// COUNTERS
+const counterObserver=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(!e.isIntersecting)return;
+    const el=e.target;
+    const target=parseFloat(el.dataset.count);
+    const isFloat=String(target).includes('.');
+    const duration=1400;
+    const start=performance.now();
+    const step=now=>{
+      const progress=Math.min((now-start)/duration,1);
+      const eased=1-Math.pow(1-progress,3);
+      const value=eased*target;
+      el.textContent=isFloat?value.toFixed(1):Math.floor(value).toLocaleString();
+      if(progress<1)requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+    counterObserver.unobserve(el);
+  });
+},{threshold:.5});
+document.querySelectorAll('[data-count]').forEach(el=>counterObserver.observe(el));
+
+// FAQ
+document.querySelectorAll('.faq-q').forEach(q=>{
+  q.addEventListener('click',()=>{
+    const item=q.parentElement;
+    const wasOpen=item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(i=>i.classList.remove('open'));
+    if(!wasOpen)item.classList.add('open');
+  });
+});
+
+// FORM SUBMIT
+function handleSubmit(e){
+  e.preventDefault();
+  e.target.style.display='none';
+  document.getElementById('formSuccess').style.display='block';
+}
+</script>
+</body>
+</html>
